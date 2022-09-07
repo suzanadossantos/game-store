@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/imagens/favicon1.png" type="image/x-icon">
+    <!-- Links CSS -->
     <link rel="stylesheet" href="assets/css/style.css" media="all">
     <link rel="stylesheet" href="assets/css/media-query.css">
+    <!-- Links Icons -->
     <script src="https://kit.fontawesome.com/5ae26a9ab2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
     <title>GameStore - Loja virtual de jogos</title>
 </head>
-
 <body>
     <header>
-        <img src="assets/imagens/logo1.png" alt="Logo">
+        <section>
+           <img src="assets/imagens/logo1.png" alt="Logo">
 
-        <nav>
-            <i class="fa-solid fa-bars"></i>
+            <nav>
+                <ul>
+                    <!-- Search -->
+                    <input type="search" class="search" placeholder="Your Game">
 
-            <menu id="itens">
-                
-            </menu>
+                    <li><span class="material-symbols-sharp">notifications</span></li>
+                    <li><span class="material-symbols-sharp">download</span></li></li>
+                    <li onclick="menu()"><span class="material-symbols-sharp" id="menu">menu</span></li>
+                </ul> 
+            </nav> 
+        </section>
 
+        <menu id="itens">
             <ul>
-                <!-- Search -->
-                <input type="search" class="search" placeholder="Your Game">
-
-                <li><i class="fa-solid fa-bell"></i></li>
-                <li><i class="fa-solid fa-down-to-line"></i></li>
+                <li><input type="search" class="search" placeholder="Your Game"></li>
+                <li><a href="trending-g">Trending Games</a></li>
+                <li><a href="new-g">New Games</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
-        </nav>
+        </menu>
     </header>
-</body>
 
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
