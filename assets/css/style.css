@@ -23,19 +23,28 @@ body{
     font-family: var(--subtitle-contect);
 }
 
+/* HEADER */
+
 header{
-    margin: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1;
+    background-color: var(--black);
 }
 
 header section{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 15px;
 }
 
 header section img{
-    width: 20vw;
+    width: 25vw;
 }
 
 header section nav{
@@ -90,6 +99,7 @@ nav ul li span{
 }
 
 nav ul li span#menu:hover{
+    transition: 2ms;
     background-color: var(--red);
 }
 
@@ -125,6 +135,54 @@ menu ul li a{
 }
 
 menu ul li a:hover{
+    transition: 2ms;
     color: var(--red);
     text-decoration: underline;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 80px;
+}
+
+main section#p_game{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+main section#p_game img{
+    opacity: 75%;
+    width: 100%;
+}
+
+main section#p_game span{
+    position: absolute;
+    text-align: right;
+    top: 20vw;
+    left: 25vw;
+}
+
+main section#p_game span h2{
+    font-size: 1.2em;
+    color: var(--white);
+}
+
+main section#p_game span h2, button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+main section#p_game span button{
+    cursor: pointer;
+    color: var(--white);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main section#p_game span button:hover{
+    transition: 2ms;
+    background-color: var(--red);
 }
