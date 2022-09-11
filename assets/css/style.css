@@ -132,11 +132,30 @@ menu ul li a{
     font-size: 1em;
     text-decoration: none;
     color: var(--black);
+    
+    /*--- barra lateral ---*/
+    flex-basis: 20%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 30vw;
+    height: 20vh;
+    padding: 20px;
+}
+
+menu ul li a::after{
+    content: '';
+    width: 2px;
+    height: 30%;
+    background-color: var(--red);
+    position: absolute;
+    left: 1%;
+    top: 20px;
 }
 
 menu ul li a:hover{
     transition: 2ms;
-    color: var(--red);
     text-decoration: underline;
 }
 
@@ -146,43 +165,42 @@ main{
     margin-top: 80px;
 }
 
+/*--- Spider Man ---*/
+
 main section#p_game{
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-}
-
-main section#p_game img{
-    opacity: 75%;
-    width: 100%;
-}
-
-main section#p_game span{
-    position: absolute;
+    background: url(../imagens/home/spider-man.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     text-align: right;
-    top: 20vw;
-    left: 25vw;
+    margin: 20px;
+    border-radius: 5px;
+    height: 30vh;
 }
 
-main section#p_game span h2{
+main section#p_game h2, button{
+    padding: 20px;
+}
+
+main section#p_game h2{
     font-size: 1.2em;
     color: var(--white);
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 120px;
 }
 
-main section#p_game span h2, button{
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-main section#p_game span button{
+main section#p_game button{
+    font-size: 0.8em;
+    margin-right: 20px;
     cursor: pointer;
     color: var(--white);
     background-color: transparent;
     padding: 5px;
+    text-decoration: none;
+    border: 2px solid var(--black);
     border-radius: 5px;
 }
 
-main section#p_game span button:hover{
-    transition: 2ms;
-    background-color: var(--red);
-}
+/*--- Trending Games ---*/
+
