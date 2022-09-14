@@ -132,7 +132,7 @@ menu ul li a{
     font-size: 1em;
     text-decoration: none;
     color: var(--black);
-    
+
     /*--- barra lateral ---*/
     flex-basis: 20%;
     position: relative;
@@ -196,7 +196,7 @@ main section#p_game button{
     cursor: pointer;
     color: var(--white);
     background-color: transparent;
-    padding: 5px;
+    padding: 5px 15px;
     text-decoration: none;
     border: 2px solid var(--black);
     border-radius: 5px;
@@ -204,3 +204,88 @@ main section#p_game button{
 
 /*--- Trending Games ---*/
 
+main section#t_games{
+    background-color: var(--black)
+}
+
+main section#t_games div.title{
+    display: flex;
+    align-items: center;
+}
+
+main section#t_games div.title i{
+    background-color: var(--red);
+    padding: 7px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+main section#t_games div.title h2{
+    font-size: 1em;
+    color: var(--white);
+}
+
+div.carrossel-jogos{
+    padding: 5px;
+    margin: 15px;
+}
+
+div.carrossel-jogos div.item{
+    width: 200px;
+}
+
+div.carrossel-jogos div.item img.box-jogo{
+    width: 200px;
+    height: 290px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.carrossel-jogos div.item i{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+div.carrossel-jogos div.item div.info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: -55px;
+    background-color: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.carrossel-jogos div.item div.info2{
+    padding-top: 7px;
+    top: -55px;
+}
+
+div.carrossel-jogos div.item div.info3{
+    padding-top: 10px;
+    top: -55px;
+}
+
+div.carrossel-jogos div.item div.info4{
+    padding-top: 5px;
+    top: -55px;
+}
+
+div.carrossel-jogos div.item div.info h3{
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.carrossel-jogos div.item div.info3 h3{
+    font-size: 0.8em;
+}
+
+div.carrossel-jogos div.item div.info img{
+    cursor: pointer;
+    margin: auto;
+    width: 25px;
+}
