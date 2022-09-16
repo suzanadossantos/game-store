@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 320px) and (max-width: 650px){
+@media screen and (min-width: 320px) and (max-width: 400px){
     main section#p_game h2{
         font-size: 1em;
     }
@@ -8,9 +8,57 @@
     main section#p_game button{
         font-size: 0.7em;
     }
+
+    div.carrossel-jogos div.item{
+        margin-left: 100px;
+        margin-right: 200px;
+    }
+
+    div.carrossel-jogos div.item img.box-jogo{
+        width: 120px;
+        height: 170px;
+    }
+
+    div.carrossel-jogos div.item span{
+        margin: 5px;
+        margin-left: -55px;
+    }
+
+    div.carrossel-jogos div.item div.info{
+        width: 120px;
+    }
+
+    div.carrossel-jogos div.item div.info h3{
+        font-size: 0.7em;
+    }
 }
 
+@media screen and (min-width: 400px) and (max-width: 650px){
+    main section#p_game h2{
+        font-size: 1em;
+    }
+
+    main section#p_game button{
+        font-size: 0.7em;
+    }
+
+    div.carrossel-jogos div.item span{
+        margin-left: 140px;
+    }
+
+    div.carrossel-jogos div.item img.box-jogo{
+        width: 170px;
+        height: 230px;
+    }
+
+    div.carrossel-jogos div.item div.info{
+        width: 170px;
+    }
+}
+
+/*--- Para todas as telas > 650px ---*/
 @media screen and (min-width: 650px){
+
     .search:hover{
         background-color: var(--red);
         box-shadow: 0 0 0 2px var(--white);
@@ -22,6 +70,15 @@
 
     menu ul li input.search{
         display: none;
+    }
+
+    div.carrossel-jogos div.item div.info{
+        width: 200px;
+    }
+
+    div.carrossel-jogos div.item span{
+        margin: 5px;
+        margin-left: 80%;
     }
 }
 
@@ -41,6 +98,11 @@
 
     main section#p_game h2{
         padding-top: 180px;
+    }
+
+    div.carrossel-jogos div.item span{
+        margin: 5px;
+        margin-left: 80%;
     }
 }
 
