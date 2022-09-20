@@ -73,6 +73,11 @@
         display: block;
     }
 
+    nav ul li span#menu:hover{
+        transition: 2ms;
+        background-color: var(--red);
+    }
+
     menu ul li input.search{
         display: none;
     }
