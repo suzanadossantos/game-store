@@ -102,6 +102,26 @@
         font-variation-settings:
         'FILL' 1
     }
+
+    main button:hover{
+        transform: scale(1.2);
+    }
+
+    footer{
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    footer section{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    footer div#icones i:hover{
+        color: var(--red);
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 992px){
@@ -111,7 +131,7 @@
     }
 
     header section img{
-        width: 15vw;
+        width: 20vw;
     }
 
     main section#p_game{
@@ -136,11 +156,11 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     body{
-       background-color: rgb(255, 174, 0);
+      /* background-color: rgb(255, 174, 0); */
     }
 
     header section img{
-        width: 10vw;
+        width: 15vw;
     }
 
     main section#p_game{
@@ -156,16 +176,24 @@
         padding-left: 25px;
         justify-content: space-between;
     }
+
+    div.jogos div.item img{
+        width: 180px;
+    }
+
+    div.jogos div.item div.info{
+        width: 180px;
+    }
 }
 
 
 @media screen and (min-width: 1200px){
     body{
-       background-color: rgb(184, 42, 124); 
+      /* background-color: rgb(184, 42, 124); */
     }
 
     header section img{
-        width: 7vw;
+        width: 12vw;
     }
 
     main section#p_game{
@@ -180,5 +208,13 @@
     main section#new-g div.jogos{
         padding-left: 25px;
         justify-content: space-between;
+    }
+    
+    div.jogos div.item img{
+        width: 180px;
+    }
+
+    div.jogos div.item div.info{
+        width: 180px;
     }
 }

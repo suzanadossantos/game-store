@@ -159,6 +159,7 @@ menu ul li a:hover{
 
 main{
     margin-top: 80px;
+    background-color: var(--black);
 }
 
 /*--- Spider Man ---*/
@@ -172,10 +173,6 @@ main section#p_game{
     margin: 20px;
     border-radius: 5px;
     height: 30vh;
-}
-
-main section#p_game h2, button{
-    padding: 20px;
 }
 
 main section#p_game h2{
@@ -260,6 +257,7 @@ div.carrossel-jogos div.item span{
     position: absolute;
     margin: 5px;
     margin-left: -55px;
+    color: var(--white);
 }
 
 div.carrossel-jogos div.item div.info{
@@ -348,7 +346,7 @@ div.jogos div.item img{
 }
 
 div.jogos div.item span{
-    color: white;
+    color: var(--white);
     cursor: pointer;
     position: absolute;
     margin: 5px;  
@@ -406,4 +404,68 @@ main section#more-g div.title img{
 main section#more-g div.title h2{
     font-size: 1em;
     color: var(--white);
+}
+
+/*--- Botão next ---*/
+
+main button{
+    display: block;
+    margin: auto;
+    font-size: 0.8em;
+    text-align: center;
+    cursor: pointer;
+    color: var(--white);
+    background-color: transparent;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 2.5px solid var(--white);
+    border-radius: 5px;
+}
+
+main button h2{
+    font-size: 1.2em;
+    color: var(--white);
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 120px;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer section div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer div#icones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer div#icones i{
+    cursor: pointer;
+    transform: scale(1.3);
 }
