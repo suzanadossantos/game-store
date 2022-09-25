@@ -119,11 +119,6 @@
 }
 
 @media screen and (min-width: 650px) and (max-width: 992px){
-
-    body{
-       background-color: rgb(0, 255, 34);
-    }
-
     header section img{
         width: 20vw;
     }
@@ -153,10 +148,6 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
-    body{
-     background-color: rgb(255, 174, 0); 
-    }
-
     header section img{
         width: 15vw;
     }
@@ -185,10 +176,6 @@
 }
 
 @media screen and (min-width: 1200px){
-    body{
-      background-color: rgb(184, 42, 124);
-    }
-
     header section img{
         width: 12vw;
     }
