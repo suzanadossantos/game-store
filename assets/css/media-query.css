@@ -63,12 +63,6 @@
 
 /*--- Para todas as telas > 650px ---*/
 @media screen and (min-width: 650px){
-
-    .search:hover{
-        background-color: var(--red);
-        box-shadow: 0 0 0 2px var(--white);
-    }
-
     nav .search{
         display: block;
     }
@@ -127,7 +121,7 @@
 @media screen and (min-width: 650px) and (max-width: 992px){
 
     body{
-        background-color: rgb(0, 255, 34);
+       background-color: rgb(0, 255, 34);
     }
 
     header section img{
@@ -148,6 +142,10 @@
     }
 
     main section#new-g div.jogos{
+        gap: 50px;
+    }    
+
+    main section#new-g div.jogos{
         padding-left: 25px;
         justify-content: flex-start;
         align-items: center;
@@ -156,7 +154,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     body{
-      /* background-color: rgb(255, 174, 0); */
+     background-color: rgb(255, 174, 0); 
     }
 
     header section img{
@@ -186,10 +184,9 @@
     }
 }
 
-
 @media screen and (min-width: 1200px){
     body{
-      /* background-color: rgb(184, 42, 124); */
+      background-color: rgb(184, 42, 124);
     }
 
     header section img{
@@ -198,11 +195,11 @@
 
     main section#p_game{
         margin: 40px;
-        padding-bottom: 300px;
+        padding-bottom: 350px;
     }
 
     main section#p_game h2{
-        padding-top: 210px;
+        padding-top: 250px;
     }
 
     main section#new-g div.jogos{

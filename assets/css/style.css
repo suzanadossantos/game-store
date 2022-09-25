@@ -158,6 +158,7 @@ menu ul li a:hover{
 /* MAIN */
 
 main{
+    width: 100%;
     margin-top: 80px;
     background-color: var(--black);
 }
@@ -433,6 +434,7 @@ main button h2{
 /* FOOTER */
 
 footer{
+    width: 100%;
     margin-top: 20px;
     padding: 20px;
     background-color: var(--white);
@@ -454,7 +456,7 @@ footer section{
 footer section div{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 }
 
 footer div#icones{
