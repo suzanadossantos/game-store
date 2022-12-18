@@ -22,11 +22,8 @@ body{
     background-color: var(--black);
     color: var(--white);
     font-family: var(--subtitle-contect);
-}
-
-main{
-    display: block;
-    padding: 30px;
+    padding-top: 20px;
+    overflow: hidden;
 }
 
 section.imagem{
@@ -119,11 +116,12 @@ form p:hover{
 
 form #login{
     cursor: pointer;
+    text-align: center;
     font-family: var(--title);
     font-weight: bold;
     border: 2.4px solid var(--black);
     border-radius: 5px;
-    padding: 3px 20px;
+    padding: 3px;
     background: transparent;
 }
 
@@ -141,7 +139,7 @@ div.login-info p{
 /*--- Para todas as telas > 650px ---*/
 @media screen and (min-width: 650px){
     body{
-        background-color: var(--red);
+        overflow: hidden;
     }
 
     section.login img#controle1{
@@ -153,14 +151,7 @@ div.login-info p{
     }
 }
 
-@media screen and (min-width: 650px) and (max-width: 992px){
-   
-}
-
-@media screen and (min-width: 1200px){
-   
-}
-
+/* KEYFRAMES */
 @keyframes controle1{
     from{ 
       transform: rotate(20deg);
