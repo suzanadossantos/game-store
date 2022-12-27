@@ -23,7 +23,6 @@ body{
     color: var(--white);
     font-family: var(--subtitle-contect);
     padding-top: 20px;
-    overflow: hidden;
 }
 
 section.imagem{
@@ -115,6 +114,8 @@ form p:hover{
 }
 
 form #login{
+    margin: auto;
+    width: 40%;
     cursor: pointer;
     text-align: center;
     font-family: var(--title);
@@ -138,10 +139,6 @@ div.login-info p{
 
 /*--- Para todas as telas > 650px ---*/
 @media screen and (min-width: 650px){
-    body{
-        overflow: hidden;
-    }
-
     section.login img#controle1{
         animation: controle1 1s infinite alternate;
     }

@@ -1,0 +1,29 @@
+/* Base
+    
+div#avaliacoes div.conteudo div.coment div.av{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-family: var(--subtitulo);
+    font-size: 1em;
+    font-weight: 400;
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 30vw;
+    height: 20vh;
+    padding: 20px;
+}
+
+div#avaliacoes div.conteudo div.coment div.av::after{
+    content: '';
+    width: 2px;
+    height: 70%;
+    background-color: var(--preto);
+    position: absolute;
+    left: 2%;
+    top: 20px;
+}
+
+*/
