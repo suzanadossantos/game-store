@@ -40,8 +40,8 @@ Sendo desenvolvida...
 ## Links 🔗
 
 ### Projeto 
-- [Figma](https://www.figma.com/file/nWv6ieELceixiulg0vBBCc/GAMESTORE?node-id=0%3A1)
 - [Acessar site](https://suzanadossantos.github.io/game-store/)
+- [Figma](https://www.figma.com/file/nWv6ieELceixiulg0vBBCc/GAMESTORE?node-id=0%3A1)
 
 ### Sobre mim
 - [LinkedIn](https://www.linkedin.com/in/suzana-dos-santos-dev/)
